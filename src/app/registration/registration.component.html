@@ -1,0 +1,11 @@
+<div id="Main-block">
+  <div id="Reg-block">
+    <span>login:</span>
+    <input [(ngModel)]="user.login" type="text">
+
+    <span>password:</span>
+    <input [(ngModel)]="user.password" type="password">
+
+    <input type="button" (click)="save()" value="Submit">
+  </div>
+</div>
